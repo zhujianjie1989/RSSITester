@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RSSITester</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ib1">iBeacon 1</string>
+    <string name="rssi">RSSI</string>
+    <string name="metertext">1</string>
+    <string name="meterlabel">Meters</string>
+
+</resources>

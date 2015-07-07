@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${packageName}.${activityClass}" >
+    
+  <!--  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meterlabel"/>
+		<EditText 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+	    	android:id="@+id/meters"
+	    	android:text="@string/metertext"
+	    	android:inputType="number"/>	
+    </LinearLayout>-->
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:maxLines="1000"
+	        android:scrollbars="vertical"
+	        android:id="@+id/bName"/>
+	        <!-- android:text="@string/ib1" -->
+    </ScrollView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MAC"
+        android:layout_marginTop="100dp"
+        android:text="82:91" />
+
+</LinearLayout>
+<!-- From: file:/D:/zhujianjie/GitHub/RSSITester/app/src/main/res/layout/activity_main.xml -->

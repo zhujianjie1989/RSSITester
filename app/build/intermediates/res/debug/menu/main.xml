@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_scan"
+        android:title="Scan"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+    <item android:id="@+id/action_save"
+        android:title="Save"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+    <item android:id="@+id/action_clear"
+        android:title="Clear"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+</menu><!-- From: file:/D:/zhujianjie/GitHub/RSSITester/app/src/main/res/menu/main.xml -->
