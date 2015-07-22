@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="${packageName}.${activityClass}" >
+    tools:context="${packageName}.${activityClass}"
+    android:id="@+id/dd">
     
   <!--  <LinearLayout
         android:layout_width="match_parent"
@@ -39,7 +40,25 @@
         android:layout_height="wrap_content"
         android:id="@+id/MAC"
         android:layout_marginTop="100dp"
-        android:text="82:91" />
+        android:text="6A:D0" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ET_IP"
+        android:text="10.27.230.122" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ET_Port"
+        android:text="60000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ET_NUM"
+        android:text="150" />
 
 </LinearLayout>
 <!-- From: file:/D:/zhujianjie/GitHub/RSSITester/app/src/main/res/layout/activity_main.xml -->

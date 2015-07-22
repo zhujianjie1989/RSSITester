@@ -1300,7 +1300,10 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020033;
     }
     public static final class id {
-        public static final int MAC=0x7f0b0040;
+        public static final int ET_IP=0x7f0b0042;
+        public static final int ET_NUM=0x7f0b0044;
+        public static final int ET_Port=0x7f0b0043;
+        public static final int MAC=0x7f0b0041;
         public static final int action_bar=0x7f0b0031;
         public static final int action_bar_activity_content=0x7f0b0000;
         public static final int action_bar_container=0x7f0b0030;
@@ -1308,21 +1311,22 @@ containing a value of this type.
         public static final int action_bar_spinner=0x7f0b0001;
         public static final int action_bar_subtitle=0x7f0b001f;
         public static final int action_bar_title=0x7f0b001e;
-        public static final int action_clear=0x7f0b0043;
+        public static final int action_clear=0x7f0b0047;
         public static final int action_context_bar=0x7f0b0032;
         public static final int action_menu_divider=0x7f0b0002;
         public static final int action_menu_presenter=0x7f0b0003;
         public static final int action_mode_bar=0x7f0b002e;
         public static final int action_mode_bar_stub=0x7f0b002d;
         public static final int action_mode_close_button=0x7f0b0020;
-        public static final int action_save=0x7f0b0042;
-        public static final int action_scan=0x7f0b0041;
+        public static final int action_save=0x7f0b0046;
+        public static final int action_scan=0x7f0b0045;
         public static final int activity_chooser_view_content=0x7f0b0021;
         public static final int always=0x7f0b0016;
-        public static final int bName=0x7f0b003f;
+        public static final int bName=0x7f0b0040;
         public static final int beginning=0x7f0b0013;
         public static final int checkbox=0x7f0b0029;
         public static final int collapseActionView=0x7f0b0017;
+        public static final int dd=0x7f0b003f;
         public static final int decor_content_parent=0x7f0b002f;
         public static final int default_activity_button=0x7f0b0024;
         public static final int dialog=0x7f0b001b;
